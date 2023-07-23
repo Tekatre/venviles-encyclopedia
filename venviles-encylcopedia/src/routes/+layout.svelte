@@ -3,10 +3,12 @@
   import "$lib/style/styles.css";
 </script>
 
-<link
-  href="https://fonts.googleapis.com/css?family=Aclonica"
-  rel="stylesheet"
-/>
+<head
+  ><link
+    href="https://fonts.googleapis.com/css?family=Charm"
+    rel="stylesheet"
+  />
+</head>
 
 <div class="app">
   <nav>
@@ -73,10 +75,3 @@
     </p>
   </footer>
 </div>
-
-<style>
-  h1 {
-    font-family: "Aclonica";
-    font-size: 22px;
-  }
-</style>

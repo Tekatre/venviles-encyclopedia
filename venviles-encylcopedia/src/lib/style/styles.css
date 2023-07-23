@@ -122,12 +122,46 @@ main {
   width: 95%;
 }
 
+h1 {
+  font-family: "Charm";
+  font-weight: bold;
+  font-size: 120px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0.6;
+}
+
 .left-sider {
   display: flex;
   flex-direction: column;
+
+  border: solid;
+  border-color: #9d03cc;
+}
+
+label {
+  font-size: xx-large;
+}
+
+#cb:checked + #nation-folder + .hider {
+  display: none;
+}
+#cb + #nation-folder::after {
+  content: "-";
+}
+#cb:checked + #nation-folder::after {
+  content: "o";
 }
 
 .right-sider {
   display: flex;
   flex-direction: column;
+
+  border: solid;
+  border-color: #9d03cc;
 }

@@ -6,4 +6,6 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>Bozane</section>
+<section>
+  <h1>BOZANE</h1>
+</section>
