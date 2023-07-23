@@ -6,4 +6,4 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>Sec</section>
+<section>Ujarvia</section>
