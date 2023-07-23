@@ -1,6 +1,7 @@
 <script>
   import { page } from "$app/stores";
   import "$lib/style/styles.css";
+  import blasonBozane from "$lib/images/blasons/Bozane.png";
 </script>
 
 <head
@@ -40,7 +41,15 @@
             <li><a href="/nations/alastia">Alastia</a></li>
             <li><a href="/nations/almotumia">Almotumia</a></li>
             <li><a href="/nations/andominchia">Andominchia</a></li>
-            <li><a href="/nations/bozane">Bozane</a></li>
+            <li>
+              <a href="/nations/bozane"
+                ><img
+                  class="menu-crest"
+                  src={blasonBozane}
+                  alt="Blason de Bozane"
+                /> Bozane</a
+              >
+            </li>
             <li><a href="/nations/castia">Castia</a></li>
             <li><a href="/nations/darenia">Darenia</a></li>
             <li><a href="/nations/eltala">Eltala</a></li>
